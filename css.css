@@ -21,12 +21,17 @@ article {
     text-align: left;
     font-weight: bold;
     padding: 5px;
+    overflow: hidden;
 }
 .szamok {
-   
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+
 }
 .szamok button {
-    
+    flex: 1 1 30%;
 }
 .muvjelek {
     grid-area: muv;
